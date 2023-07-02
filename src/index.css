@@ -1,0 +1,68 @@
+body {
+    font-family: 'Raleway';;
+    background-image: url('./images/logo-StarWars.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Establece el fondo como fijo */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
+
+
+  .ListCategory {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 24px;
+  }
+
+
+  main {
+    padding: 20px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: black;
+  }
+
+  li:hover{
+    cursor: pointer;
+    color: #ffc500;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: orange;
+  }
+
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+
+
+
+
