@@ -15,6 +15,12 @@ body {
     padding-bottom: 25px;
   }
 
+  #backButtonContainer {
+    display: none;
+   
+    width: 20px;
+  }
+
 
   .ListCategory {
     display: flex;
@@ -60,6 +66,36 @@ body {
   .error {
     color: red;
     margin-top: 10px;
+  }
+
+  #results{
+    padding-bottom: 30px;;
+  }
+
+  #details{
+    color: orange;
+    margin-left: 15px;
+    padding-top:40px;
+  }
+
+  h2{
+    color: #114bbd;
+  }
+
+  h2:hover{
+    cursor: pointer;
+    color:#114bbd;
+  }
+
+
+  #backButton{
+    margin-left: 14px;
+    width: 60px;
+    color: white;
+    background-color: #114bbd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
 
